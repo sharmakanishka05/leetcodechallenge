@@ -1,7 +1,7 @@
 class Solution {
 public:
     int canBeTypedWords(string text, string brokenLetters) {
-            int n = text.length();
+        int n = text.length();
 
         bool mp[26];
         for(char &ch : brokenLetters) {
@@ -24,6 +24,5 @@ public:
             result++;
 
         return result;
-
     }
 };
